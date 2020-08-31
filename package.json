@@ -1,0 +1,14 @@
+{
+  "name": "hytube",
+  "version": "1.0.0",
+  "description": "Super Sexy Video Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hyese Hyro",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

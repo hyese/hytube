@@ -1,0 +1,27 @@
+.home-videos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  .videoBlock {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    .videoBlock__thumbnail {
+      max-width: 100%;
+      border-radius: 0.5rem;
+    }
+    .videoBlock__title {
+      margin: 1rem 0;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .videoBlock__views {
+      font-size: 0.8rem;
+    }
+  }
+}
